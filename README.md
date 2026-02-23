@@ -2,7 +2,7 @@
     badges.nvim
 </h1>
 <p align='center'>
-  <b>Insert markdown badges, directly inside Neovim!</b>
+  <b>Insert badges, directly inside Neovim!</b>
 </p>
 
 <p align='center'>
