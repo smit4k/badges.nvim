@@ -1,6 +1,18 @@
 local M = {}
 
 local STYLES = { "flat", "flat-square", "plastic", "for-the-badge", "social" }
+local html_ft = {
+  html = true,
+  vue = true,
+  jsx = true,
+  tsx = true,
+  svelte = true,
+  htmldjango = true,
+  jinja = true,
+  heex = true,
+  astro = true,
+  php = true,
+}
 
 M.config = { style = "flat" }
 
@@ -29,8 +41,7 @@ local function insert_at_cursor(text)
 end
 
 local function format_badge(url, label)
-  local ft = vim.bo.filetype
-  if ft == "html" then
+  if html_ft[vim.bo.filetype] ~= nil then
     return string.format("<img src='%s' alt='%s'>", url, label)
   end
   return string.format("![%s](%s)", label, url)
