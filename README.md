@@ -1,47 +1,30 @@
-# A Neovim Plugin Template
+<h1 align='center'>
+    badges.nvim
+</h1>
+<p align='center'>
+  <b>Insert markdown badges, directly inside Neovim!</b>
+</p>
 
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ellisonleao/nvim-plugin-template/lint-test.yml?branch=main&style=for-the-badge)
-![Lua](https://img.shields.io/badge/Made%20with%20Lua-blueviolet.svg?style=for-the-badge&logo=lua)
+<p align='center'>
+        <img src= https://img.shields.io/badge/Lua-2C2D72?style=for-the-badge&logo=lua&logoColor=white>
+</p>
 
-A template repository for Neovim plugins.
+## Features
 
-## Using it
+- Insert badges from a built-in catalog
+- Choose different badge styles & set a default style
 
-Via `gh`:
+## Installation
 
-```
-$ gh repo create my-plugin -p ellisonleao/nvim-plugin-template
-```
+Prerequisites: Neovim >= 0.8
 
-Via github web page:
+Use your favorite plugin manager!
 
-Click on `Use this template`
-
-![](https://docs.github.com/assets/cb-36544/images/help/repository/use-this-template-button.png)
-
-## Features and structure
-
-- 100% Lua
-- Github actions for:
-  - running tests using [plenary.nvim](https://github.com/nvim-lua/plenary.nvim) and [busted](https://olivinelabs.com/busted/)
-  - check for formatting errors (Stylua)
-  - vimdocs autogeneration from README.md file
-  - luarocks release (LUAROCKS_API_KEY secret configuration required)
-
-### Plugin structure
-
-```
-.
-├── lua
-│   ├── plugin_name
-│   │   └── module.lua
-│   └── plugin_name.lua
-├── Makefile
-├── plugin
-│   └── plugin_name.lua
-├── README.md
-├── tests
-│   ├── minimal_init.lua
-│   └── plugin_name
-│       └── plugin_name_spec.lua
+```lua
+{
+    "smit4k/badges.nvim"
+    config = function()
+        require("badges").setup()
+    end
+}
 ```
