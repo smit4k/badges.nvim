@@ -1,0 +1,216 @@
+{
+    "static": {
+        "label": "Custom Badge",
+        "template": "![{label}](https://img.shields.io/badge/{label}-{message}-{color}?style={style}&logo={logo}&logoColor={logoColor})",
+        "fields": [
+            {
+                "key": "label",
+                "prompt": "label: "
+            },
+            {
+                "key": "message",
+                "prompt": "message: "
+            },
+            {
+                "key": "color",
+                "prompt": "color (hex, no #): "
+            },
+            {
+                "key": "logo",
+                "prompt": "logo (simpleicons name): "
+            },
+            {
+                "key": "logoColor",
+                "prompt": "logo color: "
+            }
+        ]
+    },
+    "github_stars": {
+        "label": "GitHub Stars",
+        "template": "![GitHub Stars](https://img.shields.io/github/stars/{user}/{repo}?style={style})",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_issues": {
+        "label": "GitHub Issues",
+        "template": "![GitHub Issues](https://img.shields.io/github/issues/{user}/{repo}?style={style})",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_forks": {
+        "label": "GitHub Forks",
+        "template": "![GitHub Forks](https://img.shields.io/github/forks/{user}/{repo}?style={style})",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_license": {
+        "label": "GitHub License",
+        "template": "![GitHub License](https://img.shields.io/github/license/{user}/{repo}?style={style})",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_workflow": {
+        "label": "GitHub Workflow",
+        "template": "![GitHub Workflow](https://img.shields.io/github/actions/workflow/status/{user}/{repo}/{workflow}?style={style})",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            },
+            {
+                "key": "workflow",
+                "prompt": "workflow file (e.g. ci.yml): "
+            }
+        ]
+    },
+    "npm_version": {
+        "label": "NPM Version",
+        "template": "![NPM Version](https://img.shields.io/npm/v/{package}?style={style})",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "npm_downloads": {
+        "label": "NPM Downloads",
+        "template": "![NPM Downloads](https://img.shields.io/npm/dm/{package}?style={style})",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "crates_version": {
+        "label": "Crates.io Version",
+        "template": "![Crates.io](https://img.shields.io/crates/v/{crate}?style={style})",
+        "fields": [
+            {
+                "key": "crate",
+                "prompt": "crate name: "
+            }
+        ]
+    },
+    "crates_downloads": {
+        "label": "Crates.io Downloads",
+        "template": "![Crates.io Downloads](https://img.shields.io/crates/d/{crate}?style={style})",
+        "fields": [
+            {
+                "key": "crate",
+                "prompt": "crate name: "
+            }
+        ]
+    },
+    "pypi_version": {
+        "label": "PyPI Version",
+        "template": "![PyPI](https://img.shields.io/pypi/v/{package}?style={style})",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "pypi_downloads": {
+        "label": "PyPI Downloads",
+        "template": "![PyPI Downloads](https://img.shields.io/pypi/dm/{package}?style={style})",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "docker_pulls": {
+        "label": "Docker Pulls",
+        "template": "![Docker Pulls](https://img.shields.io/docker/pulls/{user}/{image}?style={style})",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "dockerhub username: "
+            },
+            {
+                "key": "image",
+                "prompt": "image name: "
+            }
+        ]
+    },
+    "neovim": {
+        "label": "Neovim",
+        "template": "![Neovim](https://img.shields.io/badge/Neovim-%2357A143?style={style}&logo=neovim&logoColor=white)",
+        "fields": []
+    },
+    "rust": {
+        "label": "Rust",
+        "template": "![Rust](https://img.shields.io/badge/Rust-%23000000?style={style}&logo=rust&logoColor=white)",
+        "fields": []
+    },
+    "lua": {
+        "label": "Lua",
+        "template": "![Lua](https://img.shields.io/badge/Lua-%232C2D72?style={style}&logo=lua&logoColor=white)",
+        "fields": []
+    },
+    "python": {
+        "label": "Python",
+        "template": "![Python](https://img.shields.io/badge/Python-%233776AB?style={style}&logo=python&logoColor=white)",
+        "fields": []
+    },
+    "typescript": {
+        "label": "TypeScript",
+        "template": "![TypeScript](https://img.shields.io/badge/TypeScript-%233178C6?style={style}&logo=typescript&logoColor=white)",
+        "fields": []
+    },
+    "javascript": {
+        "label": "JavaScript",
+        "template": "![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E?style={style}&logo=javascript&logoColor=black)",
+        "fields": []
+    },
+    "go": {
+        "label": "Go",
+        "template": "![Go](https://img.shields.io/badge/Go-%2300ADD8?style={style}&logo=go&logoColor=white)",
+        "fields": []
+    },
+    "zig": {
+        "label": "Zig",
+        "template": "![Zig](https://img.shields.io/badge/Zig-%23F7A41D?style={style}&logo=zig&logoColor=white)",
+        "fields": []
+    }
+}
