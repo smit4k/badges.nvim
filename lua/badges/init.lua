@@ -28,15 +28,22 @@ local function insert_at_cursor(text)
   vim.api.nvim_win_set_cursor(0, { row, col + #text })
 end
 
+local function format_badge(url, label)
+  local ft = vim.bo.filetype
+  if ft == "html" then
+    return string.format("<img src='%s' alt='%s'>", url, label)
+  end
+  return string.format("![%s](%s)", label, url)
+end
+
 local function fill_fields(fields, values, badge_label, callback)
+  fields = fields or {}
   if #fields == 0 then
     callback(values)
     return
   end
-
   local field = fields[1]
   local remaining = vim.list_slice(fields, 2)
-
   vim.ui.input({ prompt = badge_label .. " > " .. field.prompt }, function(input)
     if not input then
       return
@@ -50,28 +57,24 @@ function M.select_badge()
   local badges = load_badges()
   local names = vim.tbl_keys(badges)
   table.sort(names)
-
   vim.ui.select(names, { prompt = "Select badge: " }, function(choice)
     if not choice then
       return
     end
     local badge = badges[choice]
-
     local style_options = vim.list_extend({ "default (" .. M.config.style .. ")" }, STYLES)
     vim.ui.select(style_options, { prompt = "Select style: " }, function(style_choice)
       if not style_choice then
         return
       end
-
       local style = M.config.style
       if style_choice ~= style_options[1] then
         style = style_choice
       end
-
       fill_fields(badge.fields, {}, badge.label, function(values)
         values.style = style
-        local url = badge.template:gsub("{(%w+)}", values)
-        insert_at_cursor(url)
+        local url = badge.url:gsub("{(%w+)}", values)
+        insert_at_cursor(format_badge(url, badge.label))
       end)
     end)
   end)
