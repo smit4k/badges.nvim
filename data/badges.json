@@ -25,6 +25,7 @@
             }
         ]
     },
+
     "github_stars": {
         "label": "GitHub Stars",
         "url": "https://img.shields.io/github/stars/{user}/{repo}?style={style}",
@@ -42,6 +43,20 @@
     "github_issues": {
         "label": "GitHub Issues",
         "url": "https://img.shields.io/github/issues/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_issues_closed": {
+        "label": "GitHub Closed Issues",
+        "url": "https://img.shields.io/github/issues-closed/{user}/{repo}?style={style}",
         "fields": [
             {
                 "key": "user",
@@ -99,6 +114,289 @@
             }
         ]
     },
+    "github_contributors": {
+        "label": "GitHub Contributors",
+        "url": "https://img.shields.io/github/contributors/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_last_commit": {
+        "label": "GitHub Last Commit",
+        "url": "https://img.shields.io/github/last-commit/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_commit_activity": {
+        "label": "GitHub Commit Activity",
+        "url": "https://img.shields.io/github/commit-activity/m/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_repo_size": {
+        "label": "GitHub Repo Size",
+        "url": "https://img.shields.io/github/repo-size/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_code_size": {
+        "label": "GitHub Code Size",
+        "url": "https://img.shields.io/github/languages/code-size/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_top_language": {
+        "label": "GitHub Top Language",
+        "url": "https://img.shields.io/github/languages/top/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_language_count": {
+        "label": "GitHub Language Count",
+        "url": "https://img.shields.io/github/languages/count/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_release": {
+        "label": "GitHub Release",
+        "url": "https://img.shields.io/github/v/release/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_tag": {
+        "label": "GitHub Tag",
+        "url": "https://img.shields.io/github/v/tag/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_downloads": {
+        "label": "GitHub Downloads",
+        "url": "https://img.shields.io/github/downloads/{user}/{repo}/total?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_pull_requests": {
+        "label": "GitHub Pull Requests",
+        "url": "https://img.shields.io/github/issues-pr/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_pull_requests_closed": {
+        "label": "GitHub Closed PRs",
+        "url": "https://img.shields.io/github/issues-pr-closed/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_watchers": {
+        "label": "GitHub Watchers",
+        "url": "https://img.shields.io/github/watchers/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_directory_file_count": {
+        "label": "GitHub Directory File Count",
+        "url": "https://img.shields.io/github/directory-file-count/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_discussions": {
+        "label": "GitHub Discussions",
+        "url": "https://img.shields.io/github/discussions/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_package_json_version": {
+        "label": "GitHub package.json Version",
+        "url": "https://img.shields.io/github/package-json/v/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_followers": {
+        "label": "GitHub Followers",
+        "url": "https://img.shields.io/github/followers/{user}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            }
+        ]
+    },
+    "github_sponsors": {
+        "label": "GitHub Sponsors",
+        "url": "https://img.shields.io/github/sponsors/{user}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            }
+        ]
+    },
+    "github_created_at": {
+        "label": "GitHub Created At",
+        "url": "https://img.shields.io/github/created-at/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_release_date": {
+        "label": "GitHub Release Date",
+        "url": "https://img.shields.io/github/release-date/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "github_gist_stars": {
+        "label": "GitHub Gist Stars",
+        "url": "https://img.shields.io/github/gist/stars/{gistId}?style={style}",
+        "fields": [
+            {
+                "key": "gistId",
+                "prompt": "gist ID: "
+            }
+        ]
+    },
+
     "npm_version": {
         "label": "NPM Version",
         "url": "https://img.shields.io/npm/v/{package}?style={style}",
@@ -119,6 +417,77 @@
             }
         ]
     },
+    "npm_downloads_total": {
+        "label": "NPM Total Downloads",
+        "url": "https://img.shields.io/npm/dt/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "npm_license": {
+        "label": "NPM License",
+        "url": "https://img.shields.io/npm/l/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "npm_bundle_size": {
+        "label": "NPM Bundle Size",
+        "url": "https://img.shields.io/bundlephobia/min/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "npm_bundle_size_minzip": {
+        "label": "NPM Bundle Size (minzip)",
+        "url": "https://img.shields.io/bundlephobia/minzip/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "npm_type_definitions": {
+        "label": "NPM Type Definitions",
+        "url": "https://img.shields.io/npm/types/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "npm_collaborators": {
+        "label": "NPM Collaborators",
+        "url": "https://img.shields.io/npm/collaborators/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "npm_node_version": {
+        "label": "Node Current Version",
+        "url": "https://img.shields.io/node/v/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+
     "crates_version": {
         "label": "Crates.io Version",
         "url": "https://img.shields.io/crates/v/{crate}?style={style}",
@@ -139,6 +508,47 @@
             }
         ]
     },
+    "crates_license": {
+        "label": "Crates.io License",
+        "url": "https://img.shields.io/crates/l/{crate}?style={style}",
+        "fields": [
+            {
+                "key": "crate",
+                "prompt": "crate name: "
+            }
+        ]
+    },
+    "crates_size": {
+        "label": "Crates.io Size",
+        "url": "https://img.shields.io/crates/size/{crate}?style={style}",
+        "fields": [
+            {
+                "key": "crate",
+                "prompt": "crate name: "
+            }
+        ]
+    },
+    "crates_msrv": {
+        "label": "Crates.io MSRV",
+        "url": "https://img.shields.io/crates/msrv/{crate}?style={style}",
+        "fields": [
+            {
+                "key": "crate",
+                "prompt": "crate name: "
+            }
+        ]
+    },
+    "docs_rs": {
+        "label": "docs.rs",
+        "url": "https://img.shields.io/docsrs/{crate}?style={style}",
+        "fields": [
+            {
+                "key": "crate",
+                "prompt": "crate name: "
+            }
+        ]
+    },
+
     "pypi_version": {
         "label": "PyPI Version",
         "url": "https://img.shields.io/pypi/v/{package}?style={style}",
@@ -159,6 +569,85 @@
             }
         ]
     },
+    "pypi_python_version": {
+        "label": "PyPI Python Version",
+        "url": "https://img.shields.io/pypi/pyversions/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "pypi_license": {
+        "label": "PyPI License",
+        "url": "https://img.shields.io/pypi/l/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "pypi_format": {
+        "label": "PyPI Format",
+        "url": "https://img.shields.io/pypi/format/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "pypi_status": {
+        "label": "PyPI Status",
+        "url": "https://img.shields.io/pypi/status/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "pypi_implementation": {
+        "label": "PyPI Implementation",
+        "url": "https://img.shields.io/pypi/implementation/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "conda_version": {
+        "label": "Conda Version",
+        "url": "https://img.shields.io/conda/v/{channel}/{package}?style={style}",
+        "fields": [
+            {
+                "key": "channel",
+                "prompt": "channel (e.g. conda-forge): "
+            },
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "conda_downloads": {
+        "label": "Conda Downloads",
+        "url": "https://img.shields.io/conda/dn/{channel}/{package}?style={style}",
+        "fields": [
+            {
+                "key": "channel",
+                "prompt": "channel (e.g. conda-forge): "
+            },
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+
     "docker_pulls": {
         "label": "Docker Pulls",
         "url": "https://img.shields.io/docker/pulls/{user}/{image}?style={style}",
@@ -173,9 +662,1142 @@
             }
         ]
     },
+    "docker_image_size": {
+        "label": "Docker Image Size",
+        "url": "https://img.shields.io/docker/image-size/{user}/{image}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "dockerhub username: "
+            },
+            {
+                "key": "image",
+                "prompt": "image name: "
+            }
+        ]
+    },
+    "docker_stars": {
+        "label": "Docker Stars",
+        "url": "https://img.shields.io/docker/stars/{user}/{image}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "dockerhub username: "
+            },
+            {
+                "key": "image",
+                "prompt": "image name: "
+            }
+        ]
+    },
+    "docker_version": {
+        "label": "Docker Version",
+        "url": "https://img.shields.io/docker/v/{user}/{image}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "dockerhub username: "
+            },
+            {
+                "key": "image",
+                "prompt": "image name: "
+            }
+        ]
+    },
+    "docker_automated": {
+        "label": "Docker Automated Build",
+        "url": "https://img.shields.io/docker/automated/{user}/{image}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "dockerhub username: "
+            },
+            {
+                "key": "image",
+                "prompt": "image name: "
+            }
+        ]
+    },
+
+    "nuget_version": {
+        "label": "NuGet Version",
+        "url": "https://img.shields.io/nuget/v/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "nuget_downloads": {
+        "label": "NuGet Downloads",
+        "url": "https://img.shields.io/nuget/dt/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "packagist_version": {
+        "label": "Packagist Version",
+        "url": "https://img.shields.io/packagist/v/{vendor}/{package}?style={style}",
+        "fields": [
+            {
+                "key": "vendor",
+                "prompt": "vendor name: "
+            },
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "packagist_downloads": {
+        "label": "Packagist Downloads",
+        "url": "https://img.shields.io/packagist/dt/{vendor}/{package}?style={style}",
+        "fields": [
+            {
+                "key": "vendor",
+                "prompt": "vendor name: "
+            },
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "packagist_php_version": {
+        "label": "Packagist PHP Version",
+        "url": "https://img.shields.io/packagist/dependency-v/{vendor}/{package}/php?style={style}",
+        "fields": [
+            {
+                "key": "vendor",
+                "prompt": "vendor name: "
+            },
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "packagist_license": {
+        "label": "Packagist License",
+        "url": "https://img.shields.io/packagist/l/{vendor}/{package}?style={style}",
+        "fields": [
+            {
+                "key": "vendor",
+                "prompt": "vendor name: "
+            },
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "gem_version": {
+        "label": "Gem Version",
+        "url": "https://img.shields.io/gem/v/{gem}?style={style}",
+        "fields": [
+            {
+                "key": "gem",
+                "prompt": "gem name: "
+            }
+        ]
+    },
+    "gem_downloads": {
+        "label": "Gem Downloads",
+        "url": "https://img.shields.io/gem/dt/{gem}?style={style}",
+        "fields": [
+            {
+                "key": "gem",
+                "prompt": "gem name: "
+            }
+        ]
+    },
+    "hex_version": {
+        "label": "Hex.pm Version",
+        "url": "https://img.shields.io/hexpm/v/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "hex_downloads": {
+        "label": "Hex.pm Downloads",
+        "url": "https://img.shields.io/hexpm/dt/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "hex_license": {
+        "label": "Hex.pm License",
+        "url": "https://img.shields.io/hexpm/l/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "maven_central_version": {
+        "label": "Maven Central Version",
+        "url": "https://img.shields.io/maven-central/v/{groupId}/{artifactId}?style={style}",
+        "fields": [
+            {
+                "key": "groupId",
+                "prompt": "group ID: "
+            },
+            {
+                "key": "artifactId",
+                "prompt": "artifact ID: "
+            }
+        ]
+    },
+    "cocoapods_version": {
+        "label": "CocoaPods Version",
+        "url": "https://img.shields.io/cocoapods/v/{pod}?style={style}",
+        "fields": [
+            {
+                "key": "pod",
+                "prompt": "pod name: "
+            }
+        ]
+    },
+    "cocoapods_license": {
+        "label": "CocoaPods License",
+        "url": "https://img.shields.io/cocoapods/l/{pod}?style={style}",
+        "fields": [
+            {
+                "key": "pod",
+                "prompt": "pod name: "
+            }
+        ]
+    },
+    "cocoapods_platform": {
+        "label": "CocoaPods Platform",
+        "url": "https://img.shields.io/cocoapods/p/{pod}?style={style}",
+        "fields": [
+            {
+                "key": "pod",
+                "prompt": "pod name: "
+            }
+        ]
+    },
+    "homebrew_version": {
+        "label": "Homebrew Version",
+        "url": "https://img.shields.io/homebrew/v/{formula}?style={style}",
+        "fields": [
+            {
+                "key": "formula",
+                "prompt": "formula name: "
+            }
+        ]
+    },
+    "homebrew_cask_version": {
+        "label": "Homebrew Cask Version",
+        "url": "https://img.shields.io/homebrew/cask/v/{cask}?style={style}",
+        "fields": [
+            {
+                "key": "cask",
+                "prompt": "cask name: "
+            }
+        ]
+    },
+    "chocolatey_version": {
+        "label": "Chocolatey Version",
+        "url": "https://img.shields.io/chocolatey/v/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "chocolatey_downloads": {
+        "label": "Chocolatey Downloads",
+        "url": "https://img.shields.io/chocolatey/dt/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "pub_version": {
+        "label": "Pub Version",
+        "url": "https://img.shields.io/pub/v/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "pub_points": {
+        "label": "Pub Points",
+        "url": "https://img.shields.io/pub/points/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "pub_likes": {
+        "label": "Pub Likes",
+        "url": "https://img.shields.io/pub/likes/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "go_module_version": {
+        "label": "Go Module Version",
+        "url": "https://img.shields.io/github/go-mod/go-version/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "go_reference": {
+        "label": "Go Reference",
+        "url": "https://img.shields.io/badge/go-reference-blue?style={style}&logo=go&logoColor=white",
+        "fields": []
+    },
+    "apm_version": {
+        "label": "APM Version",
+        "url": "https://img.shields.io/apm/v/{package}?style={style}",
+        "fields": [
+            {
+                "key": "package",
+                "prompt": "package name: "
+            }
+        ]
+    },
+    "visual_studio_marketplace_version": {
+        "label": "VS Marketplace Version",
+        "url": "https://img.shields.io/visual-studio-marketplace/v/{extensionId}?style={style}",
+        "fields": [
+            {
+                "key": "extensionId",
+                "prompt": "extension ID: "
+            }
+        ]
+    },
+    "visual_studio_marketplace_installs": {
+        "label": "VS Marketplace Installs",
+        "url": "https://img.shields.io/visual-studio-marketplace/i/{extensionId}?style={style}",
+        "fields": [
+            {
+                "key": "extensionId",
+                "prompt": "extension ID: "
+            }
+        ]
+    },
+    "visual_studio_marketplace_rating": {
+        "label": "VS Marketplace Rating",
+        "url": "https://img.shields.io/visual-studio-marketplace/r/{extensionId}?style={style}",
+        "fields": [
+            {
+                "key": "extensionId",
+                "prompt": "extension ID: "
+            }
+        ]
+    },
+    "open_vsx_version": {
+        "label": "Open VSX Version",
+        "url": "https://img.shields.io/open-vsx/v/{namespace}/{extension}?style={style}",
+        "fields": [
+            {
+                "key": "namespace",
+                "prompt": "namespace: "
+            },
+            {
+                "key": "extension",
+                "prompt": "extension name: "
+            }
+        ]
+    },
+    "open_vsx_downloads": {
+        "label": "Open VSX Downloads",
+        "url": "https://img.shields.io/open-vsx/dt/{namespace}/{extension}?style={style}",
+        "fields": [
+            {
+                "key": "namespace",
+                "prompt": "namespace: "
+            },
+            {
+                "key": "extension",
+                "prompt": "extension name: "
+            }
+        ]
+    },
+    "wordpress_plugin_version": {
+        "label": "WordPress Plugin Version",
+        "url": "https://img.shields.io/wordpress/plugin/v/{slug}?style={style}",
+        "fields": [
+            {
+                "key": "slug",
+                "prompt": "plugin slug: "
+            }
+        ]
+    },
+    "wordpress_plugin_downloads": {
+        "label": "WordPress Plugin Downloads",
+        "url": "https://img.shields.io/wordpress/plugin/dt/{slug}?style={style}",
+        "fields": [
+            {
+                "key": "slug",
+                "prompt": "plugin slug: "
+            }
+        ]
+    },
+    "wordpress_plugin_rating": {
+        "label": "WordPress Plugin Rating",
+        "url": "https://img.shields.io/wordpress/plugin/rating/{slug}?style={style}",
+        "fields": [
+            {
+                "key": "slug",
+                "prompt": "plugin slug: "
+            }
+        ]
+    },
+    "chrome_web_store_version": {
+        "label": "Chrome Web Store Version",
+        "url": "https://img.shields.io/chrome-web-store/v/{extensionId}?style={style}",
+        "fields": [
+            {
+                "key": "extensionId",
+                "prompt": "extension ID: "
+            }
+        ]
+    },
+    "chrome_web_store_users": {
+        "label": "Chrome Web Store Users",
+        "url": "https://img.shields.io/chrome-web-store/users/{extensionId}?style={style}",
+        "fields": [
+            {
+                "key": "extensionId",
+                "prompt": "extension ID: "
+            }
+        ]
+    },
+    "chrome_web_store_rating": {
+        "label": "Chrome Web Store Rating",
+        "url": "https://img.shields.io/chrome-web-store/rating/{extensionId}?style={style}",
+        "fields": [
+            {
+                "key": "extensionId",
+                "prompt": "extension ID: "
+            }
+        ]
+    },
+    "mozilla_addon_version": {
+        "label": "Mozilla Add-on Version",
+        "url": "https://img.shields.io/amo/v/{addonId}?style={style}",
+        "fields": [
+            {
+                "key": "addonId",
+                "prompt": "add-on ID/slug: "
+            }
+        ]
+    },
+    "mozilla_addon_users": {
+        "label": "Mozilla Add-on Users",
+        "url": "https://img.shields.io/amo/users/{addonId}?style={style}",
+        "fields": [
+            {
+                "key": "addonId",
+                "prompt": "add-on ID/slug: "
+            }
+        ]
+    },
+    "mozilla_addon_rating": {
+        "label": "Mozilla Add-on Rating",
+        "url": "https://img.shields.io/amo/rating/{addonId}?style={style}",
+        "fields": [
+            {
+                "key": "addonId",
+                "prompt": "add-on ID/slug: "
+            }
+        ]
+    },
+    "flathub_version": {
+        "label": "Flathub Version",
+        "url": "https://img.shields.io/flathub/v/{packageName}?style={style}",
+        "fields": [
+            {
+                "key": "packageName",
+                "prompt": "package name (e.g. org.gimp.GIMP): "
+            }
+        ]
+    },
+    "flathub_downloads": {
+        "label": "Flathub Downloads",
+        "url": "https://img.shields.io/flathub/downloads/{packageName}?style={style}",
+        "fields": [
+            {
+                "key": "packageName",
+                "prompt": "package name (e.g. org.gimp.GIMP): "
+            }
+        ]
+    },
+
+    "codecov": {
+        "label": "Codecov",
+        "url": "https://img.shields.io/codecov/c/github/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "coveralls": {
+        "label": "Coveralls",
+        "url": "https://img.shields.io/coveralls/github/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "codacy_grade": {
+        "label": "Codacy Grade",
+        "url": "https://img.shields.io/codacy/grade/{projectId}?style={style}",
+        "fields": [
+            {
+                "key": "projectId",
+                "prompt": "Codacy project ID: "
+            }
+        ]
+    },
+    "codacy_coverage": {
+        "label": "Codacy Coverage",
+        "url": "https://img.shields.io/codacy/coverage/{projectId}?style={style}",
+        "fields": [
+            {
+                "key": "projectId",
+                "prompt": "Codacy project ID: "
+            }
+        ]
+    },
+    "code_climate_maintainability": {
+        "label": "Code Climate Maintainability",
+        "url": "https://img.shields.io/codeclimate/maintainability/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "code_climate_coverage": {
+        "label": "Code Climate Coverage",
+        "url": "https://img.shields.io/codeclimate/coverage/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "code_climate_tech_debt": {
+        "label": "Code Climate Tech Debt",
+        "url": "https://img.shields.io/codeclimate/tech-debt/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "sonar_quality_gate": {
+        "label": "Sonar Quality Gate",
+        "url": "https://img.shields.io/sonar/quality_gate/{projectKey}?server=https%3A%2F%2Fsonarcloud.io&style={style}",
+        "fields": [
+            {
+                "key": "projectKey",
+                "prompt": "SonarCloud project key: "
+            }
+        ]
+    },
+    "sonar_coverage": {
+        "label": "Sonar Coverage",
+        "url": "https://img.shields.io/sonar/coverage/{projectKey}?server=https%3A%2F%2Fsonarcloud.io&style={style}",
+        "fields": [
+            {
+                "key": "projectKey",
+                "prompt": "SonarCloud project key: "
+            }
+        ]
+    },
+    "sonar_violations": {
+        "label": "Sonar Violations",
+        "url": "https://img.shields.io/sonar/violations/{projectKey}?server=https%3A%2F%2Fsonarcloud.io&style={style}",
+        "fields": [
+            {
+                "key": "projectKey",
+                "prompt": "SonarCloud project key: "
+            }
+        ]
+    },
+    "snyk_vulnerabilities": {
+        "label": "Snyk Vulnerabilities",
+        "url": "https://img.shields.io/snyk/vulnerabilities/github/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "depfu": {
+        "label": "Depfu",
+        "url": "https://img.shields.io/depfu/dependencies/github/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "libraries_io_dependencies": {
+        "label": "Libraries.io Dependencies",
+        "url": "https://img.shields.io/librariesio/github/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+
+    "travis_ci": {
+        "label": "Travis CI",
+        "url": "https://img.shields.io/travis/com/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "circleci": {
+        "label": "CircleCI",
+        "url": "https://img.shields.io/circleci/build/github/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "gitlab_pipeline": {
+        "label": "GitLab Pipeline",
+        "url": "https://img.shields.io/gitlab/pipeline-status/{projectPath}?style={style}",
+        "fields": [
+            {
+                "key": "projectPath",
+                "prompt": "project path (e.g. user/repo): "
+            }
+        ]
+    },
+    "gitlab_coverage": {
+        "label": "GitLab Coverage",
+        "url": "https://img.shields.io/gitlab/pipeline-coverage/{projectPath}?style={style}",
+        "fields": [
+            {
+                "key": "projectPath",
+                "prompt": "project path (e.g. user/repo): "
+            }
+        ]
+    },
+    "gitlab_stars": {
+        "label": "GitLab Stars",
+        "url": "https://img.shields.io/gitlab/stars/{projectPath}?style={style}",
+        "fields": [
+            {
+                "key": "projectPath",
+                "prompt": "project path (e.g. user/repo): "
+            }
+        ]
+    },
+    "gitlab_forks": {
+        "label": "GitLab Forks",
+        "url": "https://img.shields.io/gitlab/forks/{projectPath}?style={style}",
+        "fields": [
+            {
+                "key": "projectPath",
+                "prompt": "project path (e.g. user/repo): "
+            }
+        ]
+    },
+    "gitlab_issues": {
+        "label": "GitLab Issues",
+        "url": "https://img.shields.io/gitlab/issues/open/{projectPath}?style={style}",
+        "fields": [
+            {
+                "key": "projectPath",
+                "prompt": "project path (e.g. user/repo): "
+            }
+        ]
+    },
+    "gitlab_license": {
+        "label": "GitLab License",
+        "url": "https://img.shields.io/gitlab/license/{projectPath}?style={style}",
+        "fields": [
+            {
+                "key": "projectPath",
+                "prompt": "project path (e.g. user/repo): "
+            }
+        ]
+    },
+    "gitlab_last_commit": {
+        "label": "GitLab Last Commit",
+        "url": "https://img.shields.io/gitlab/last-commit/{projectPath}?style={style}",
+        "fields": [
+            {
+                "key": "projectPath",
+                "prompt": "project path (e.g. user/repo): "
+            }
+        ]
+    },
+    "appveyor": {
+        "label": "AppVeyor",
+        "url": "https://img.shields.io/appveyor/build/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "azure_devops_build": {
+        "label": "Azure DevOps Build",
+        "url": "https://img.shields.io/azure-devops/build/{org}/{project}/{definitionId}?style={style}",
+        "fields": [
+            {
+                "key": "org",
+                "prompt": "organization: "
+            },
+            {
+                "key": "project",
+                "prompt": "project: "
+            },
+            {
+                "key": "definitionId",
+                "prompt": "definition ID: "
+            }
+        ]
+    },
+    "azure_devops_coverage": {
+        "label": "Azure DevOps Coverage",
+        "url": "https://img.shields.io/azure-devops/coverage/{org}/{project}/{definitionId}?style={style}",
+        "fields": [
+            {
+                "key": "org",
+                "prompt": "organization: "
+            },
+            {
+                "key": "project",
+                "prompt": "project: "
+            },
+            {
+                "key": "definitionId",
+                "prompt": "definition ID: "
+            }
+        ]
+    },
+    "bitbucket_pipelines": {
+        "label": "Bitbucket Pipelines",
+        "url": "https://img.shields.io/bitbucket/pipelines/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "bitbucket_issues": {
+        "label": "Bitbucket Issues",
+        "url": "https://img.shields.io/bitbucket/issues/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "bitbucket_pull_requests": {
+        "label": "Bitbucket Pull Requests",
+        "url": "https://img.shields.io/bitbucket/pr/{user}/{repo}?style={style}",
+        "fields": [
+            {
+                "key": "user",
+                "prompt": "username: "
+            },
+            {
+                "key": "repo",
+                "prompt": "repo: "
+            }
+        ]
+    },
+    "jenkins_build": {
+        "label": "Jenkins Build",
+        "url": "https://img.shields.io/jenkins/build?jobUrl={jobUrl}&style={style}",
+        "fields": [
+            {
+                "key": "jobUrl",
+                "prompt": "Jenkins job URL: "
+            }
+        ]
+    },
+
+    "discord": {
+        "label": "Discord",
+        "url": "https://img.shields.io/discord/{serverId}?style={style}&logo=discord&logoColor=white",
+        "fields": [
+            {
+                "key": "serverId",
+                "prompt": "server ID: "
+            }
+        ]
+    },
+    "twitter_follow": {
+        "label": "Twitter Follow",
+        "url": "https://img.shields.io/twitter/follow/{username}?style={style}&logo=twitter&logoColor=white",
+        "fields": [
+            {
+                "key": "username",
+                "prompt": "Twitter username: "
+            }
+        ]
+    },
+    "twitter_url": {
+        "label": "Twitter URL",
+        "url": "https://img.shields.io/twitter/url?url={url}&style={style}",
+        "fields": [
+            {
+                "key": "url",
+                "prompt": "URL to share: "
+            }
+        ]
+    },
+    "reddit_subreddit_subscribers": {
+        "label": "Reddit Subreddit Subscribers",
+        "url": "https://img.shields.io/reddit/subreddit-subscribers/{subreddit}?style={style}&logo=reddit&logoColor=white",
+        "fields": [
+            {
+                "key": "subreddit",
+                "prompt": "subreddit name: "
+            }
+        ]
+    },
+    "reddit_user_karma": {
+        "label": "Reddit User Karma",
+        "url": "https://img.shields.io/reddit/user-karma/combined/{username}?style={style}&logo=reddit&logoColor=white",
+        "fields": [
+            {
+                "key": "username",
+                "prompt": "Reddit username: "
+            }
+        ]
+    },
+    "youtube_channel_subscribers": {
+        "label": "YouTube Subscribers",
+        "url": "https://img.shields.io/youtube/channel/subscribers/{channelId}?style={style}&logo=youtube&logoColor=white",
+        "fields": [
+            {
+                "key": "channelId",
+                "prompt": "YouTube channel ID: "
+            }
+        ]
+    },
+    "youtube_channel_views": {
+        "label": "YouTube Channel Views",
+        "url": "https://img.shields.io/youtube/channel/views/{channelId}?style={style}&logo=youtube&logoColor=white",
+        "fields": [
+            {
+                "key": "channelId",
+                "prompt": "YouTube channel ID: "
+            }
+        ]
+    },
+    "youtube_video_views": {
+        "label": "YouTube Video Views",
+        "url": "https://img.shields.io/youtube/views/{videoId}?style={style}&logo=youtube&logoColor=white",
+        "fields": [
+            {
+                "key": "videoId",
+                "prompt": "YouTube video ID: "
+            }
+        ]
+    },
+    "youtube_video_likes": {
+        "label": "YouTube Video Likes",
+        "url": "https://img.shields.io/youtube/likes/{videoId}?style={style}&logo=youtube&logoColor=white",
+        "fields": [
+            {
+                "key": "videoId",
+                "prompt": "YouTube video ID: "
+            }
+        ]
+    },
+    "twitch_status": {
+        "label": "Twitch Status",
+        "url": "https://img.shields.io/twitch/status/{username}?style={style}&logo=twitch&logoColor=white",
+        "fields": [
+            {
+                "key": "username",
+                "prompt": "Twitch username: "
+            }
+        ]
+    },
+    "mastodon_follow": {
+        "label": "Mastodon Follow",
+        "url": "https://img.shields.io/mastodon/follow/{userId}?domain={domain}&style={style}&logo=mastodon&logoColor=white",
+        "fields": [
+            {
+                "key": "userId",
+                "prompt": "Mastodon user ID: "
+            },
+            {
+                "key": "domain",
+                "prompt": "instance domain (e.g. https://mastodon.social): "
+            }
+        ]
+    },
+    "stack_exchange_reputation": {
+        "label": "Stack Exchange Reputation",
+        "url": "https://img.shields.io/stackexchange/{site}/r/{userId}?style={style}",
+        "fields": [
+            {
+                "key": "site",
+                "prompt": "site (e.g. stackoverflow): "
+            },
+            {
+                "key": "userId",
+                "prompt": "user ID: "
+            }
+        ]
+    },
+    "matrix": {
+        "label": "Matrix",
+        "url": "https://img.shields.io/matrix/{roomAlias}?server_fqdn={server}&style={style}&logo=matrix&logoColor=white",
+        "fields": [
+            {
+                "key": "roomAlias",
+                "prompt": "room alias (e.g. room:server.org): "
+            },
+            {
+                "key": "server",
+                "prompt": "server FQDN (e.g. matrix.org): "
+            }
+        ]
+    },
+
+    "website_status": {
+        "label": "Website Status",
+        "url": "https://img.shields.io/website?url={url}&style={style}",
+        "fields": [
+            {
+                "key": "url",
+                "prompt": "URL (encoded): "
+            }
+        ]
+    },
+    "w3c_validation": {
+        "label": "W3C Validation",
+        "url": "https://img.shields.io/w3c-validation/html?targetUrl={url}&style={style}",
+        "fields": [
+            {
+                "key": "url",
+                "prompt": "URL to validate: "
+            }
+        ]
+    },
+    "mozilla_observatory": {
+        "label": "Mozilla HTTP Observatory",
+        "url": "https://img.shields.io/mozilla-observatory/grade/{host}?style={style}",
+        "fields": [
+            {
+                "key": "host",
+                "prompt": "hostname (e.g. github.com): "
+            }
+        ]
+    },
+    "security_headers": {
+        "label": "Security Headers",
+        "url": "https://img.shields.io/security-headers?url={url}&style={style}",
+        "fields": [
+            {
+                "key": "url",
+                "prompt": "URL: "
+            }
+        ]
+    },
+    "uptime_robot_status": {
+        "label": "Uptime Robot Status",
+        "url": "https://img.shields.io/uptimerobot/status/{monitorApiKey}?style={style}",
+        "fields": [
+            {
+                "key": "monitorApiKey",
+                "prompt": "monitor-specific API key: "
+            }
+        ]
+    },
+    "uptime_robot_ratio": {
+        "label": "Uptime Robot Ratio",
+        "url": "https://img.shields.io/uptimerobot/ratio/{monitorApiKey}?style={style}",
+        "fields": [
+            {
+                "key": "monitorApiKey",
+                "prompt": "monitor-specific API key: "
+            }
+        ]
+    },
+    "pingpong_status": {
+        "label": "PingPong Status",
+        "url": "https://img.shields.io/pingpong/status/{apiKey}?style={style}",
+        "fields": [
+            {
+                "key": "apiKey",
+                "prompt": "PingPong API key: "
+            }
+        ]
+    },
+
+    "jira_issue": {
+        "label": "Jira Issue",
+        "url": "https://img.shields.io/jira/issue/{issueKey}?baseUrl={baseUrl}&style={style}",
+        "fields": [
+            {
+                "key": "issueKey",
+                "prompt": "issue key (e.g. PROJ-123): "
+            },
+            {
+                "key": "baseUrl",
+                "prompt": "Jira base URL: "
+            }
+        ]
+    },
+    "jira_sprint": {
+        "label": "Jira Sprint",
+        "url": "https://img.shields.io/jira/sprint/{sprintId}?baseUrl={baseUrl}&style={style}",
+        "fields": [
+            {
+                "key": "sprintId",
+                "prompt": "sprint ID: "
+            },
+            {
+                "key": "baseUrl",
+                "prompt": "Jira base URL: "
+            }
+        ]
+    },
+
+    "netlify": {
+        "label": "Netlify",
+        "url": "https://img.shields.io/netlify/{siteId}?style={style}",
+        "fields": [
+            {
+                "key": "siteId",
+                "prompt": "Netlify site ID: "
+            }
+        ]
+    },
+    "vercel": {
+        "label": "Vercel",
+        "url": "https://img.shields.io/badge/Vercel-deployed-black?style={style}&logo=vercel&logoColor=white",
+        "fields": []
+    },
+    "render": {
+        "label": "Render",
+        "url": "https://img.shields.io/badge/Render-deployed-46E3B7?style={style}&logo=render&logoColor=white",
+        "fields": []
+    },
+    "heroku": {
+        "label": "Heroku",
+        "url": "https://img.shields.io/badge/Heroku-deployed-430098?style={style}&logo=heroku&logoColor=white",
+        "fields": []
+    },
+
     "neovim": {
         "label": "Neovim",
         "url": "https://img.shields.io/badge/Neovim-%2357A143?style={style}&logo=neovim&logoColor=white",
+        "fields": []
+    },
+    "vim": {
+        "label": "Vim",
+        "url": "https://img.shields.io/badge/Vim-%23019733?style={style}&logo=vim&logoColor=white",
         "fields": []
     },
     "rust": {
@@ -211,6 +1833,817 @@
     "zig": {
         "label": "Zig",
         "url": "https://img.shields.io/badge/Zig-%23F7A41D?style={style}&logo=zig&logoColor=white",
+        "fields": []
+    },
+    "c": {
+        "label": "C",
+        "url": "https://img.shields.io/badge/C-%23A8B9CC?style={style}&logo=c&logoColor=black",
+        "fields": []
+    },
+    "cpp": {
+        "label": "C++",
+        "url": "https://img.shields.io/badge/C++-%2300599C?style={style}&logo=cplusplus&logoColor=white",
+        "fields": []
+    },
+    "csharp": {
+        "label": "C#",
+        "url": "https://img.shields.io/badge/C%23-%23512BD4?style={style}&logo=csharp&logoColor=white",
+        "fields": []
+    },
+    "java": {
+        "label": "Java",
+        "url": "https://img.shields.io/badge/Java-%23ED8B00?style={style}&logo=openjdk&logoColor=white",
+        "fields": []
+    },
+    "kotlin": {
+        "label": "Kotlin",
+        "url": "https://img.shields.io/badge/Kotlin-%237F52FF?style={style}&logo=kotlin&logoColor=white",
+        "fields": []
+    },
+    "scala": {
+        "label": "Scala",
+        "url": "https://img.shields.io/badge/Scala-%23DC322F?style={style}&logo=scala&logoColor=white",
+        "fields": []
+    },
+    "swift": {
+        "label": "Swift",
+        "url": "https://img.shields.io/badge/Swift-%23F05138?style={style}&logo=swift&logoColor=white",
+        "fields": []
+    },
+    "objective_c": {
+        "label": "Objective-C",
+        "url": "https://img.shields.io/badge/Objective--C-%23438EFF?style={style}&logo=apple&logoColor=white",
+        "fields": []
+    },
+    "ruby": {
+        "label": "Ruby",
+        "url": "https://img.shields.io/badge/Ruby-%23CC342D?style={style}&logo=ruby&logoColor=white",
+        "fields": []
+    },
+    "php": {
+        "label": "PHP",
+        "url": "https://img.shields.io/badge/PHP-%23777BB4?style={style}&logo=php&logoColor=white",
+        "fields": []
+    },
+    "perl": {
+        "label": "Perl",
+        "url": "https://img.shields.io/badge/Perl-%2339457E?style={style}&logo=perl&logoColor=white",
+        "fields": []
+    },
+    "r": {
+        "label": "R",
+        "url": "https://img.shields.io/badge/R-%23276DC3?style={style}&logo=r&logoColor=white",
+        "fields": []
+    },
+    "dart": {
+        "label": "Dart",
+        "url": "https://img.shields.io/badge/Dart-%230175C2?style={style}&logo=dart&logoColor=white",
+        "fields": []
+    },
+    "elixir": {
+        "label": "Elixir",
+        "url": "https://img.shields.io/badge/Elixir-%234B275F?style={style}&logo=elixir&logoColor=white",
+        "fields": []
+    },
+    "erlang": {
+        "label": "Erlang",
+        "url": "https://img.shields.io/badge/Erlang-%23A90533?style={style}&logo=erlang&logoColor=white",
+        "fields": []
+    },
+    "haskell": {
+        "label": "Haskell",
+        "url": "https://img.shields.io/badge/Haskell-%235D4F85?style={style}&logo=haskell&logoColor=white",
+        "fields": []
+    },
+    "clojure": {
+        "label": "Clojure",
+        "url": "https://img.shields.io/badge/Clojure-%235881D8?style={style}&logo=clojure&logoColor=white",
+        "fields": []
+    },
+    "fsharp": {
+        "label": "F#",
+        "url": "https://img.shields.io/badge/F%23-%23378BBA?style={style}&logo=fsharp&logoColor=white",
+        "fields": []
+    },
+    "ocaml": {
+        "label": "OCaml",
+        "url": "https://img.shields.io/badge/OCaml-%23EC6813?style={style}&logo=ocaml&logoColor=white",
+        "fields": []
+    },
+    "nim": {
+        "label": "Nim",
+        "url": "https://img.shields.io/badge/Nim-%23FFE953?style={style}&logo=nim&logoColor=black",
+        "fields": []
+    },
+    "julia": {
+        "label": "Julia",
+        "url": "https://img.shields.io/badge/Julia-%239558B2?style={style}&logo=julia&logoColor=white",
+        "fields": []
+    },
+    "fortran": {
+        "label": "Fortran",
+        "url": "https://img.shields.io/badge/Fortran-%23734F96?style={style}&logo=fortran&logoColor=white",
+        "fields": []
+    },
+    "assembly": {
+        "label": "Assembly",
+        "url": "https://img.shields.io/badge/Assembly-%23007AAC?style={style}",
+        "fields": []
+    },
+    "shell": {
+        "label": "Shell",
+        "url": "https://img.shields.io/badge/Shell-%234EAA25?style={style}&logo=gnubash&logoColor=white",
+        "fields": []
+    },
+    "powershell": {
+        "label": "PowerShell",
+        "url": "https://img.shields.io/badge/PowerShell-%235391FE?style={style}&logo=powershell&logoColor=white",
+        "fields": []
+    },
+    "html5": {
+        "label": "HTML5",
+        "url": "https://img.shields.io/badge/HTML5-%23E34F26?style={style}&logo=html5&logoColor=white",
+        "fields": []
+    },
+    "css3": {
+        "label": "CSS3",
+        "url": "https://img.shields.io/badge/CSS3-%231572B6?style={style}&logo=css3&logoColor=white",
+        "fields": []
+    },
+    "sass": {
+        "label": "Sass",
+        "url": "https://img.shields.io/badge/Sass-%23CC6699?style={style}&logo=sass&logoColor=white",
+        "fields": []
+    },
+    "less": {
+        "label": "Less",
+        "url": "https://img.shields.io/badge/Less-%231D365D?style={style}&logo=less&logoColor=white",
+        "fields": []
+    },
+    "markdown": {
+        "label": "Markdown",
+        "url": "https://img.shields.io/badge/Markdown-%23000000?style={style}&logo=markdown&logoColor=white",
+        "fields": []
+    },
+    "latex": {
+        "label": "LaTeX",
+        "url": "https://img.shields.io/badge/LaTeX-%23008080?style={style}&logo=latex&logoColor=white",
+        "fields": []
+    },
+    "graphql": {
+        "label": "GraphQL",
+        "url": "https://img.shields.io/badge/GraphQL-%23E10098?style={style}&logo=graphql&logoColor=white",
+        "fields": []
+    },
+    "solidity": {
+        "label": "Solidity",
+        "url": "https://img.shields.io/badge/Solidity-%23363636?style={style}&logo=solidity&logoColor=white",
+        "fields": []
+    },
+    "wasm": {
+        "label": "WebAssembly",
+        "url": "https://img.shields.io/badge/WebAssembly-%23654FF0?style={style}&logo=webassembly&logoColor=white",
+        "fields": []
+    },
+    "v": {
+        "label": "V",
+        "url": "https://img.shields.io/badge/V-%23536B8A?style={style}&logo=v&logoColor=white",
+        "fields": []
+    },
+    "nix": {
+        "label": "Nix",
+        "url": "https://img.shields.io/badge/Nix-%235277C3?style={style}&logo=nixos&logoColor=white",
+        "fields": []
+    },
+
+    "react": {
+        "label": "React",
+        "url": "https://img.shields.io/badge/React-%2361DAFB?style={style}&logo=react&logoColor=black",
+        "fields": []
+    },
+    "next_js": {
+        "label": "Next.js",
+        "url": "https://img.shields.io/badge/Next.js-%23000000?style={style}&logo=nextdotjs&logoColor=white",
+        "fields": []
+    },
+    "vue": {
+        "label": "Vue.js",
+        "url": "https://img.shields.io/badge/Vue.js-%234FC08D?style={style}&logo=vuedotjs&logoColor=white",
+        "fields": []
+    },
+    "nuxt": {
+        "label": "Nuxt",
+        "url": "https://img.shields.io/badge/Nuxt-%2300DC82?style={style}&logo=nuxtdotjs&logoColor=white",
+        "fields": []
+    },
+    "angular": {
+        "label": "Angular",
+        "url": "https://img.shields.io/badge/Angular-%230F0F11?style={style}&logo=angular&logoColor=white",
+        "fields": []
+    },
+    "svelte": {
+        "label": "Svelte",
+        "url": "https://img.shields.io/badge/Svelte-%23FF3E00?style={style}&logo=svelte&logoColor=white",
+        "fields": []
+    },
+    "astro": {
+        "label": "Astro",
+        "url": "https://img.shields.io/badge/Astro-%23BC52EE?style={style}&logo=astro&logoColor=white",
+        "fields": []
+    },
+    "solid_js": {
+        "label": "SolidJS",
+        "url": "https://img.shields.io/badge/SolidJS-%232C4F7C?style={style}&logo=solid&logoColor=white",
+        "fields": []
+    },
+    "remix": {
+        "label": "Remix",
+        "url": "https://img.shields.io/badge/Remix-%23000000?style={style}&logo=remix&logoColor=white",
+        "fields": []
+    },
+    "ember": {
+        "label": "Ember.js",
+        "url": "https://img.shields.io/badge/Ember.js-%23E04E39?style={style}&logo=emberdotjs&logoColor=white",
+        "fields": []
+    },
+    "gatsby": {
+        "label": "Gatsby",
+        "url": "https://img.shields.io/badge/Gatsby-%23663399?style={style}&logo=gatsby&logoColor=white",
+        "fields": []
+    },
+    "express": {
+        "label": "Express",
+        "url": "https://img.shields.io/badge/Express-%23000000?style={style}&logo=express&logoColor=white",
+        "fields": []
+    },
+    "fastify": {
+        "label": "Fastify",
+        "url": "https://img.shields.io/badge/Fastify-%23000000?style={style}&logo=fastify&logoColor=white",
+        "fields": []
+    },
+    "nest_js": {
+        "label": "NestJS",
+        "url": "https://img.shields.io/badge/NestJS-%23E0234E?style={style}&logo=nestjs&logoColor=white",
+        "fields": []
+    },
+    "node_js": {
+        "label": "Node.js",
+        "url": "https://img.shields.io/badge/Node.js-%235FA04E?style={style}&logo=nodedotjs&logoColor=white",
+        "fields": []
+    },
+    "deno": {
+        "label": "Deno",
+        "url": "https://img.shields.io/badge/Deno-%23000000?style={style}&logo=deno&logoColor=white",
+        "fields": []
+    },
+    "bun": {
+        "label": "Bun",
+        "url": "https://img.shields.io/badge/Bun-%23000000?style={style}&logo=bun&logoColor=white",
+        "fields": []
+    },
+    "django": {
+        "label": "Django",
+        "url": "https://img.shields.io/badge/Django-%23092E20?style={style}&logo=django&logoColor=white",
+        "fields": []
+    },
+    "flask": {
+        "label": "Flask",
+        "url": "https://img.shields.io/badge/Flask-%23000000?style={style}&logo=flask&logoColor=white",
+        "fields": []
+    },
+    "fastapi": {
+        "label": "FastAPI",
+        "url": "https://img.shields.io/badge/FastAPI-%23009688?style={style}&logo=fastapi&logoColor=white",
+        "fields": []
+    },
+    "spring_boot": {
+        "label": "Spring Boot",
+        "url": "https://img.shields.io/badge/Spring_Boot-%236DB33F?style={style}&logo=springboot&logoColor=white",
+        "fields": []
+    },
+    "rails": {
+        "label": "Ruby on Rails",
+        "url": "https://img.shields.io/badge/Rails-%23D30001?style={style}&logo=rubyonrails&logoColor=white",
+        "fields": []
+    },
+    "laravel": {
+        "label": "Laravel",
+        "url": "https://img.shields.io/badge/Laravel-%23FF2D20?style={style}&logo=laravel&logoColor=white",
+        "fields": []
+    },
+    "phoenix": {
+        "label": "Phoenix",
+        "url": "https://img.shields.io/badge/Phoenix-%23FD4F00?style={style}&logo=phoenixframework&logoColor=white",
+        "fields": []
+    },
+    "dotnet": {
+        "label": ".NET",
+        "url": "https://img.shields.io/badge/.NET-%23512BD4?style={style}&logo=dotnet&logoColor=white",
+        "fields": []
+    },
+    "flutter": {
+        "label": "Flutter",
+        "url": "https://img.shields.io/badge/Flutter-%2302569B?style={style}&logo=flutter&logoColor=white",
+        "fields": []
+    },
+    "react_native": {
+        "label": "React Native",
+        "url": "https://img.shields.io/badge/React_Native-%2361DAFB?style={style}&logo=react&logoColor=black",
+        "fields": []
+    },
+    "electron": {
+        "label": "Electron",
+        "url": "https://img.shields.io/badge/Electron-%2347848F?style={style}&logo=electron&logoColor=white",
+        "fields": []
+    },
+    "tauri": {
+        "label": "Tauri",
+        "url": "https://img.shields.io/badge/Tauri-%23FFC131?style={style}&logo=tauri&logoColor=black",
+        "fields": []
+    },
+    "qt": {
+        "label": "Qt",
+        "url": "https://img.shields.io/badge/Qt-%2341CD52?style={style}&logo=qt&logoColor=white",
+        "fields": []
+    },
+    "gtk": {
+        "label": "GTK",
+        "url": "https://img.shields.io/badge/GTK-%237FE719?style={style}&logo=gtk&logoColor=white",
+        "fields": []
+    },
+
+    "tailwindcss": {
+        "label": "Tailwind CSS",
+        "url": "https://img.shields.io/badge/Tailwind_CSS-%2306B6D4?style={style}&logo=tailwindcss&logoColor=white",
+        "fields": []
+    },
+    "bootstrap": {
+        "label": "Bootstrap",
+        "url": "https://img.shields.io/badge/Bootstrap-%237952B3?style={style}&logo=bootstrap&logoColor=white",
+        "fields": []
+    },
+    "material_ui": {
+        "label": "Material UI",
+        "url": "https://img.shields.io/badge/Material_UI-%23007FFF?style={style}&logo=mui&logoColor=white",
+        "fields": []
+    },
+    "chakra_ui": {
+        "label": "Chakra UI",
+        "url": "https://img.shields.io/badge/Chakra_UI-%23319795?style={style}&logo=chakraui&logoColor=white",
+        "fields": []
+    },
+    "shadcn_ui": {
+        "label": "shadcn/ui",
+        "url": "https://img.shields.io/badge/shadcn%2Fui-%23000000?style={style}&logo=shadcnui&logoColor=white",
+        "fields": []
+    },
+
+    "docker_badge": {
+        "label": "Docker",
+        "url": "https://img.shields.io/badge/Docker-%232496ED?style={style}&logo=docker&logoColor=white",
+        "fields": []
+    },
+    "kubernetes": {
+        "label": "Kubernetes",
+        "url": "https://img.shields.io/badge/Kubernetes-%23326CE5?style={style}&logo=kubernetes&logoColor=white",
+        "fields": []
+    },
+    "terraform": {
+        "label": "Terraform",
+        "url": "https://img.shields.io/badge/Terraform-%23844FBA?style={style}&logo=terraform&logoColor=white",
+        "fields": []
+    },
+    "ansible": {
+        "label": "Ansible",
+        "url": "https://img.shields.io/badge/Ansible-%23EE0000?style={style}&logo=ansible&logoColor=white",
+        "fields": []
+    },
+    "nginx": {
+        "label": "Nginx",
+        "url": "https://img.shields.io/badge/Nginx-%23009639?style={style}&logo=nginx&logoColor=white",
+        "fields": []
+    },
+    "apache": {
+        "label": "Apache",
+        "url": "https://img.shields.io/badge/Apache-%23D22128?style={style}&logo=apache&logoColor=white",
+        "fields": []
+    },
+
+    "postgresql": {
+        "label": "PostgreSQL",
+        "url": "https://img.shields.io/badge/PostgreSQL-%234169E1?style={style}&logo=postgresql&logoColor=white",
+        "fields": []
+    },
+    "mysql": {
+        "label": "MySQL",
+        "url": "https://img.shields.io/badge/MySQL-%234479A1?style={style}&logo=mysql&logoColor=white",
+        "fields": []
+    },
+    "sqlite": {
+        "label": "SQLite",
+        "url": "https://img.shields.io/badge/SQLite-%23003B57?style={style}&logo=sqlite&logoColor=white",
+        "fields": []
+    },
+    "mongodb": {
+        "label": "MongoDB",
+        "url": "https://img.shields.io/badge/MongoDB-%2347A248?style={style}&logo=mongodb&logoColor=white",
+        "fields": []
+    },
+    "redis": {
+        "label": "Redis",
+        "url": "https://img.shields.io/badge/Redis-%23FF4438?style={style}&logo=redis&logoColor=white",
+        "fields": []
+    },
+    "elasticsearch": {
+        "label": "Elasticsearch",
+        "url": "https://img.shields.io/badge/Elasticsearch-%23005571?style={style}&logo=elasticsearch&logoColor=white",
+        "fields": []
+    },
+    "supabase": {
+        "label": "Supabase",
+        "url": "https://img.shields.io/badge/Supabase-%233FCF8E?style={style}&logo=supabase&logoColor=white",
+        "fields": []
+    },
+    "firebase": {
+        "label": "Firebase",
+        "url": "https://img.shields.io/badge/Firebase-%23DD2C00?style={style}&logo=firebase&logoColor=white",
+        "fields": []
+    },
+    "prisma": {
+        "label": "Prisma",
+        "url": "https://img.shields.io/badge/Prisma-%232D3748?style={style}&logo=prisma&logoColor=white",
+        "fields": []
+    },
+
+    "aws": {
+        "label": "AWS",
+        "url": "https://img.shields.io/badge/AWS-%23232F3E?style={style}&logo=amazonwebservices&logoColor=white",
+        "fields": []
+    },
+    "google_cloud": {
+        "label": "Google Cloud",
+        "url": "https://img.shields.io/badge/Google_Cloud-%234285F4?style={style}&logo=googlecloud&logoColor=white",
+        "fields": []
+    },
+    "azure": {
+        "label": "Azure",
+        "url": "https://img.shields.io/badge/Azure-%230078D4?style={style}&logo=microsoftazure&logoColor=white",
+        "fields": []
+    },
+    "cloudflare": {
+        "label": "Cloudflare",
+        "url": "https://img.shields.io/badge/Cloudflare-%23F38020?style={style}&logo=cloudflare&logoColor=white",
+        "fields": []
+    },
+    "digital_ocean": {
+        "label": "DigitalOcean",
+        "url": "https://img.shields.io/badge/DigitalOcean-%230080FF?style={style}&logo=digitalocean&logoColor=white",
+        "fields": []
+    },
+
+    "git": {
+        "label": "Git",
+        "url": "https://img.shields.io/badge/Git-%23F05032?style={style}&logo=git&logoColor=white",
+        "fields": []
+    },
+    "github_badge": {
+        "label": "GitHub",
+        "url": "https://img.shields.io/badge/GitHub-%23181717?style={style}&logo=github&logoColor=white",
+        "fields": []
+    },
+    "gitlab_badge": {
+        "label": "GitLab",
+        "url": "https://img.shields.io/badge/GitLab-%23FC6D26?style={style}&logo=gitlab&logoColor=white",
+        "fields": []
+    },
+    "bitbucket_badge": {
+        "label": "Bitbucket",
+        "url": "https://img.shields.io/badge/Bitbucket-%230052CC?style={style}&logo=bitbucket&logoColor=white",
+        "fields": []
+    },
+    "github_actions": {
+        "label": "GitHub Actions",
+        "url": "https://img.shields.io/badge/GitHub_Actions-%232088FF?style={style}&logo=githubactions&logoColor=white",
+        "fields": []
+    },
+
+    "jest": {
+        "label": "Jest",
+        "url": "https://img.shields.io/badge/Jest-%23C21325?style={style}&logo=jest&logoColor=white",
+        "fields": []
+    },
+    "vitest": {
+        "label": "Vitest",
+        "url": "https://img.shields.io/badge/Vitest-%236E9F18?style={style}&logo=vitest&logoColor=white",
+        "fields": []
+    },
+    "playwright": {
+        "label": "Playwright",
+        "url": "https://img.shields.io/badge/Playwright-%232EAD33?style={style}&logo=playwright&logoColor=white",
+        "fields": []
+    },
+    "cypress": {
+        "label": "Cypress",
+        "url": "https://img.shields.io/badge/Cypress-%2369D3A7?style={style}&logo=cypress&logoColor=white",
+        "fields": []
+    },
+    "selenium": {
+        "label": "Selenium",
+        "url": "https://img.shields.io/badge/Selenium-%2343B02A?style={style}&logo=selenium&logoColor=white",
+        "fields": []
+    },
+    "pytest": {
+        "label": "pytest",
+        "url": "https://img.shields.io/badge/pytest-%230A9EDC?style={style}&logo=pytest&logoColor=white",
+        "fields": []
+    },
+
+    "webpack": {
+        "label": "Webpack",
+        "url": "https://img.shields.io/badge/Webpack-%238DD6F9?style={style}&logo=webpack&logoColor=black",
+        "fields": []
+    },
+    "vite": {
+        "label": "Vite",
+        "url": "https://img.shields.io/badge/Vite-%23646CFF?style={style}&logo=vite&logoColor=white",
+        "fields": []
+    },
+    "esbuild": {
+        "label": "esbuild",
+        "url": "https://img.shields.io/badge/esbuild-%23FFCF00?style={style}&logo=esbuild&logoColor=black",
+        "fields": []
+    },
+    "rollup": {
+        "label": "Rollup",
+        "url": "https://img.shields.io/badge/Rollup-%23EC4A3F?style={style}&logo=rollupdotjs&logoColor=white",
+        "fields": []
+    },
+
+    "eslint": {
+        "label": "ESLint",
+        "url": "https://img.shields.io/badge/ESLint-%234B32C3?style={style}&logo=eslint&logoColor=white",
+        "fields": []
+    },
+    "prettier": {
+        "label": "Prettier",
+        "url": "https://img.shields.io/badge/Prettier-%23F7B93E?style={style}&logo=prettier&logoColor=black",
+        "fields": []
+    },
+    "biome": {
+        "label": "Biome",
+        "url": "https://img.shields.io/badge/Biome-%2360A5FA?style={style}&logo=biome&logoColor=white",
+        "fields": []
+    },
+
+    "pnpm": {
+        "label": "pnpm",
+        "url": "https://img.shields.io/badge/pnpm-%23F69220?style={style}&logo=pnpm&logoColor=white",
+        "fields": []
+    },
+    "yarn": {
+        "label": "Yarn",
+        "url": "https://img.shields.io/badge/Yarn-%232C8EBB?style={style}&logo=yarn&logoColor=white",
+        "fields": []
+    },
+    "npm_badge": {
+        "label": "npm",
+        "url": "https://img.shields.io/badge/npm-%23CB3837?style={style}&logo=npm&logoColor=white",
+        "fields": []
+    },
+    "cargo": {
+        "label": "Cargo",
+        "url": "https://img.shields.io/badge/Cargo-%23000000?style={style}&logo=rust&logoColor=white",
+        "fields": []
+    },
+    "pip": {
+        "label": "pip",
+        "url": "https://img.shields.io/badge/pip-%233775A9?style={style}&logo=pypi&logoColor=white",
+        "fields": []
+    },
+
+    "linux": {
+        "label": "Linux",
+        "url": "https://img.shields.io/badge/Linux-%23FCC624?style={style}&logo=linux&logoColor=black",
+        "fields": []
+    },
+    "macos": {
+        "label": "macOS",
+        "url": "https://img.shields.io/badge/macOS-%23000000?style={style}&logo=apple&logoColor=white",
+        "fields": []
+    },
+    "windows": {
+        "label": "Windows",
+        "url": "https://img.shields.io/badge/Windows-%230078D4?style={style}&logo=windows&logoColor=white",
+        "fields": []
+    },
+    "ubuntu": {
+        "label": "Ubuntu",
+        "url": "https://img.shields.io/badge/Ubuntu-%23E95420?style={style}&logo=ubuntu&logoColor=white",
+        "fields": []
+    },
+    "debian": {
+        "label": "Debian",
+        "url": "https://img.shields.io/badge/Debian-%23A81D33?style={style}&logo=debian&logoColor=white",
+        "fields": []
+    },
+    "arch_linux": {
+        "label": "Arch Linux",
+        "url": "https://img.shields.io/badge/Arch_Linux-%231793D1?style={style}&logo=archlinux&logoColor=white",
+        "fields": []
+    },
+    "fedora": {
+        "label": "Fedora",
+        "url": "https://img.shields.io/badge/Fedora-%2351A2DA?style={style}&logo=fedora&logoColor=white",
+        "fields": []
+    },
+    "alpine_linux": {
+        "label": "Alpine Linux",
+        "url": "https://img.shields.io/badge/Alpine_Linux-%230D597F?style={style}&logo=alpinelinux&logoColor=white",
+        "fields": []
+    },
+    "android": {
+        "label": "Android",
+        "url": "https://img.shields.io/badge/Android-%2334A853?style={style}&logo=android&logoColor=white",
+        "fields": []
+    },
+    "ios": {
+        "label": "iOS",
+        "url": "https://img.shields.io/badge/iOS-%23000000?style={style}&logo=apple&logoColor=white",
+        "fields": []
+    },
+
+    "raspberry_pi": {
+        "label": "Raspberry Pi",
+        "url": "https://img.shields.io/badge/Raspberry_Pi-%23A22846?style={style}&logo=raspberrypi&logoColor=white",
+        "fields": []
+    },
+    "arduino": {
+        "label": "Arduino",
+        "url": "https://img.shields.io/badge/Arduino-%2300878F?style={style}&logo=arduino&logoColor=white",
+        "fields": []
+    },
+
+    "visual_studio_code": {
+        "label": "VS Code",
+        "url": "https://img.shields.io/badge/VS_Code-%23007ACC?style={style}&logo=visualstudiocode&logoColor=white",
+        "fields": []
+    },
+    "intellij_idea": {
+        "label": "IntelliJ IDEA",
+        "url": "https://img.shields.io/badge/IntelliJ_IDEA-%23000000?style={style}&logo=intellijidea&logoColor=white",
+        "fields": []
+    },
+    "sublime_text": {
+        "label": "Sublime Text",
+        "url": "https://img.shields.io/badge/Sublime_Text-%23FF9800?style={style}&logo=sublimetext&logoColor=white",
+        "fields": []
+    },
+    "xcode": {
+        "label": "Xcode",
+        "url": "https://img.shields.io/badge/Xcode-%23147EFB?style={style}&logo=xcode&logoColor=white",
+        "fields": []
+    },
+    "android_studio": {
+        "label": "Android Studio",
+        "url": "https://img.shields.io/badge/Android_Studio-%233DDC84?style={style}&logo=androidstudio&logoColor=white",
+        "fields": []
+    },
+
+    "figma": {
+        "label": "Figma",
+        "url": "https://img.shields.io/badge/Figma-%23F24E1E?style={style}&logo=figma&logoColor=white",
+        "fields": []
+    },
+    "blender": {
+        "label": "Blender",
+        "url": "https://img.shields.io/badge/Blender-%23E87D0D?style={style}&logo=blender&logoColor=white",
+        "fields": []
+    },
+
+    "pytorch": {
+        "label": "PyTorch",
+        "url": "https://img.shields.io/badge/PyTorch-%23EE4C2C?style={style}&logo=pytorch&logoColor=white",
+        "fields": []
+    },
+    "tensorflow": {
+        "label": "TensorFlow",
+        "url": "https://img.shields.io/badge/TensorFlow-%23FF6F00?style={style}&logo=tensorflow&logoColor=white",
+        "fields": []
+    },
+    "numpy": {
+        "label": "NumPy",
+        "url": "https://img.shields.io/badge/NumPy-%23013243?style={style}&logo=numpy&logoColor=white",
+        "fields": []
+    },
+    "pandas": {
+        "label": "Pandas",
+        "url": "https://img.shields.io/badge/Pandas-%23150458?style={style}&logo=pandas&logoColor=white",
+        "fields": []
+    },
+    "scikit_learn": {
+        "label": "scikit-learn",
+        "url": "https://img.shields.io/badge/scikit--learn-%23F7931E?style={style}&logo=scikitlearn&logoColor=white",
+        "fields": []
+    },
+    "jupyter": {
+        "label": "Jupyter",
+        "url": "https://img.shields.io/badge/Jupyter-%23F37626?style={style}&logo=jupyter&logoColor=white",
+        "fields": []
+    },
+    "openai": {
+        "label": "OpenAI",
+        "url": "https://img.shields.io/badge/OpenAI-%23412991?style={style}&logo=openai&logoColor=white",
+        "fields": []
+    },
+
+    "conventional_commits": {
+        "label": "Conventional Commits",
+        "url": "https://img.shields.io/badge/Conventional_Commits-1.0.0-%23FE5196?style={style}&logo=conventionalcommits&logoColor=white",
+        "fields": []
+    },
+    "semantic_versioning": {
+        "label": "Semantic Versioning",
+        "url": "https://img.shields.io/badge/SemVer-2.0.0-%233F4551?style={style}&logo=semver&logoColor=white",
+        "fields": []
+    },
+    "license_mit": {
+        "label": "MIT License",
+        "url": "https://img.shields.io/badge/License-MIT-%23yellow?style={style}",
+        "fields": []
+    },
+    "license_apache": {
+        "label": "Apache 2.0 License",
+        "url": "https://img.shields.io/badge/License-Apache_2.0-%23blue?style={style}",
+        "fields": []
+    },
+    "license_gpl3": {
+        "label": "GPL v3 License",
+        "url": "https://img.shields.io/badge/License-GPLv3-%23blue?style={style}",
+        "fields": []
+    },
+    "license_bsd3": {
+        "label": "BSD 3-Clause License",
+        "url": "https://img.shields.io/badge/License-BSD_3--Clause-%23blue?style={style}",
+        "fields": []
+    },
+    "license_unlicense": {
+        "label": "Unlicense",
+        "url": "https://img.shields.io/badge/License-Unlicense-%23blue?style={style}",
+        "fields": []
+    },
+    "maintained_yes": {
+        "label": "Maintained",
+        "url": "https://img.shields.io/badge/Maintained-yes-%23green?style={style}",
+        "fields": []
+    },
+    "contributions_welcome": {
+        "label": "Contributions Welcome",
+        "url": "https://img.shields.io/badge/Contributions-welcome-%23brightgreen?style={style}",
+        "fields": []
+    },
+    "open_source": {
+        "label": "Open Source",
+        "url": "https://img.shields.io/badge/Open_Source-%E2%9D%A4-%23green?style={style}&logo=opensourceinitiative&logoColor=white",
+        "fields": []
+    },
+    "prs_welcome": {
+        "label": "PRs Welcome",
+        "url": "https://img.shields.io/badge/PRs-welcome-%23brightgreen?style={style}",
+        "fields": []
+    },
+    "made_with_love": {
+        "label": "Made with Love",
+        "url": "https://img.shields.io/badge/Made_with-%E2%9D%A4-red?style={style}",
+        "fields": []
+    },
+    "buy_me_a_coffee": {
+        "label": "Buy Me a Coffee",
+        "url": "https://img.shields.io/badge/Buy_Me_A_Coffee-%23FFDD00?style={style}&logo=buymeacoffee&logoColor=black",
+        "fields": []
+    },
+    "ko_fi": {
+        "label": "Ko-fi",
+        "url": "https://img.shields.io/badge/Ko--fi-%23FF5E5B?style={style}&logo=kofi&logoColor=white",
+        "fields": []
+    },
+    "github_sponsors_badge": {
+        "label": "GitHub Sponsors",
+        "url": "https://img.shields.io/badge/GitHub_Sponsors-%23EA4AAA?style={style}&logo=githubsponsors&logoColor=white",
+        "fields": []
+    },
+    "patreon": {
+        "label": "Patreon",
+        "url": "https://img.shields.io/badge/Patreon-%23FF424D?style={style}&logo=patreon&logoColor=white",
+        "fields": []
+    },
+    "liberapay": {
+        "label": "Liberapay",
+        "url": "https://img.shields.io/badge/Liberapay-%23F6C915?style={style}&logo=liberapay&logoColor=black",
+        "fields": []
+    },
+    "open_collective": {
+        "label": "Open Collective",
+        "url": "https://img.shields.io/badge/Open_Collective-%237FADF2?style={style}&logo=opencollective&logoColor=white",
         "fields": []
     }
 }
