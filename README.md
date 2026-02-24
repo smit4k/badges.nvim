@@ -22,10 +22,10 @@ Use your favorite plugin manager!
 
 ```lua
 {
-    "smit4k/badges.nvim"
+    "smit4k/badges.nvim",
     config = function()
         require("badges").setup()
-    end
+    end,
 }
 ```
 
