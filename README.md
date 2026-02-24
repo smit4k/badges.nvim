@@ -28,3 +28,7 @@ Use your favorite plugin manager!
     end
 }
 ```
+
+## Usage
+
+Use `:BadgeInsert` to insert a badge from a selection of badges.
