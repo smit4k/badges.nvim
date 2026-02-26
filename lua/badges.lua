@@ -2,9 +2,9 @@
 local module = require("badges.module")
 
 ---@class Config
----@field opt string Your config option
+---@field style string default badge style
 local config = {
-  opt = "Hello!",
+  style = "flat", -- options are flat, flat-square, plastic, for-the-badge, and social
 }
 
 ---@class MyModule
